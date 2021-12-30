@@ -117,3 +117,30 @@ var  LastLetterofmyName = myName[4];
      
  }
  */
+
+
+ function wordBlanks(myNoun, myAdjective, myVerb, myAdverb){
+     var result =" ";
+    result += " The " + myAdjective + " " + myNoun + myVerb + " " + " to the store " + myAdverb;
+
+     return result;
+ }
+     console.log( wordBlanks("dog", "big", "ran" , "quickly" ));
+
+
+     // Array example
+     var ourArray = [["Sudip" , 22], ["ram", 24]];  // nested array (array with ini a array)
+     var myArray= ["Quincy", 1];
+
+
+
+ var myData = [1,2,3,4,5,6];
+ myData[1]= 1;                  // update the second number
+console.log(myData);
+
+myData.push(["2","3"]);  // to push a data in array
+console.log(myData);
+
+
+var newPop = myData.pop;
+  b
